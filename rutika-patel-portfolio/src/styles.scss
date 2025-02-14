@@ -1,0 +1,57 @@
+@import "bootstrap/scss/bootstrap";
+
+// body {
+//     background: linear-gradient(135deg, #090909, #2d033b, #6a0dad);
+//     background-size: cover;
+//     background-position: center;
+//     background-attachment: fixed;
+//     min-height: 100vh;
+//   }
+  
+body {
+    background: linear-gradient(135deg, #050505, #1a022b, #2d033b);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+  @keyframes backgroundMove {
+    0% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-20px);
+      opacity: 0.95;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  .app-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+.lm-animated-bg {
+    position: absolute;
+    top: -5vh; /* Move slightly outside viewport */
+    left: -5vw; /* Expand beyond the left */
+    width: calc(100vw + 10vw); /* Dynamically expand width */
+    height: calc(100vh + 10vh); /* Dynamically expand height */
+    background: url("/assets/img/main_bg.png") no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+    
+    /* Scale background slightly larger to prevent cutting */
+    transform: scale(1.1); 
+    transition: transform 0.1s ease-out;
+  }
+  
+  
