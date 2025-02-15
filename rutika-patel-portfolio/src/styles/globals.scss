@@ -1,5 +1,5 @@
 @import "bootstrap/scss/bootstrap";
-
+@import "./tailwind.css";
 // body {
 //     background: linear-gradient(135deg, #090909, #2d033b, #6a0dad);
 //     background-size: cover;
@@ -43,8 +43,8 @@ body {
     position: absolute;
     top: -5vh; /* Move slightly outside viewport */
     left: -5vw; /* Expand beyond the left */
-    width: calc(100vw + 10vw); /* Dynamically expand width */
-    height: calc(100vh + 10vh); /* Dynamically expand height */
+    // width: calc(100vw + 10vw); /* Dynamically expand width */
+    // height: calc(100vh + 10vh); /* Dynamically expand height */
     background: url("../assests/img/main-bg.png") no-repeat center center fixed;
     background-size: cover;
     z-index: -1;
