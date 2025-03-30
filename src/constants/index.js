@@ -66,7 +66,6 @@ export const PROJECTS = [
     description:
       "A moThe Weather Dashboard is a responsive web app that provides real-time weather updates using the OpenWeather API, featuring city-based search, hourly and daily forecasts, a weather map, and an integrated calendar for date-based weather tracking. It also includes temperature unit toggling between Fahrenheit and Celsius, along with dark mode support for a smooth user experience.",
     technologies: ["ReactJS", "CSS3", "Openweather API", "Vite", "Vercel"],
-    githubLink: "https://github.com/rutika196/weather-app",
   },
 ];
 

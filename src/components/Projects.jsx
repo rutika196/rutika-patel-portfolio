@@ -42,7 +42,7 @@ export const Projects = () => {
                   key={index}
                   className="mr-2 rounded px-2 py-1 text-sm font-medium text-purple-900"
                 >
-                  {tech}{githubLink}
+                  {tech}
                 </span>
               ))}
             </motion.div>
