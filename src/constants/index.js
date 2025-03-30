@@ -64,8 +64,9 @@ export const PROJECTS = [
     title: "Weather Dashboard",
     image: weatherDashboard,
     description:
-      "A modern weather application built with React.js, featuring real-time weather updates, current conditions, and detailed highlights like temperature, humidity, wind speed, and cloud cover. Designed with Tailwind CSS and Material-UI, it includes location-based search, other city forecasts, and a sleek, interactive UI for an enhanced user experience.",
-    technologies: ["ReactJS", "CSS3", "Axios"],
+      "A moThe Weather Dashboard is a responsive web app that provides real-time weather updates using the OpenWeather API, featuring city-based search, hourly and daily forecasts, a weather map, and an integrated calendar for date-based weather tracking. It also includes temperature unit toggling between Fahrenheit and Celsius, along with dark mode support for a smooth user experience.",
+    technologies: ["ReactJS", "CSS3", "Openweather API", "Vite", "Vercel"],
+    githubLink: "https://github.com/rutika196/weather-app",
   },
 ];
 
