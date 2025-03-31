@@ -54,11 +54,10 @@ export const PROJECTS = [
     technologies: ["ReactJS", "TailwindCSS", "Framer Motion"],
   },
   {
-    title: "chatbox",
+    title: "PetroHex AI chat",
     image: chatboxDashbord,
-    description:
-      "This real-time chat application, built with React.js, GraphQL, and Apollo, enables seamless messaging with GraphQL subscriptions for instant updates. Featuring a sleek UI with Tailwind CSS and smooth Framer Motion animations, it ensures an interactive and responsive user experience. ",
-    technologies: ["React", "GraphQL", "Apollo Server", "TailwindCSS", "NodeJs", "Express Js", "Socket.IO", "MongoDB"],
+    description:"I designed and developed a sleek, dark-themed AI chatbot featuring OpenAI integration, responsive design, and a modern user interface. The application demonstrates my skills in React, TypeScript, and API integration while delivering a professional chat experience with real-time responses.",
+    technologies: ["React", "TypeScript", "Vite 6", "OpenAI API"],
   },
   {
     title: "Weather Dashboard",
