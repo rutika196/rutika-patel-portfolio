@@ -1,4 +1,4 @@
-import patrohex_dashboard from "../assets/projects/patrohex_dashboard.jpg";
+import herDay from "../assets/projects/herDay.png";
 import portfolioRutika from "../assets/projects/portfolio-rutika1.jpg";
 import chatboxDashbord from "../assets/projects/chatbox_dashboard.jpg";
 import weatherDashboard from "../assets/projects/weather_dashboard.jpg";
@@ -40,10 +40,9 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "PatroHex – AI-Powered UI Generator (Coming Soon)",
+    title: "HerDay – Smart Planner App for Modern Motherhood (Coming Soon)",
     image: patrohex_dashboard,
-    description:
-      "PatroHex is an AI-powered tool that generates fully functional React + Tailwind CSS components from simple text prompts. It features smart automation, drag-and-drop customization, and smooth Framer Motion animations to streamline UI development. Built with the MERN stack and OpenAI Codex, PatroHex empowers developers and designers to create high-quality, responsive interfaces effortlessly.",
+    description:"HerDay is a mobile-first productivity app designed to simplify scheduling, task management, and daily routines for busy mothers. It features a smart in-built planner and a fully customizable layout, enabling moms to personalize their planning experience—whether it's organizing grocery runs, tracking family activities, or managing self-care. Built with Flutter for iOS and Android, and powered by a robust backend using Node.js, Apollo Server, GraphQL, Prisma ORM, and PostgreSQL, HerDay ensures speed, flexibility, and scalability. Currently in development, HerDay emphasizes user-centered design, seamless UX, and strong data privacy. Future updates will include AI-driven smart suggestions, intelligent reminders, and voice-assisted task input.",
     technologies: ["MongoDB", "ExpressJs", "React", "Node.js", "Framer Motion", "Tailwind CSS", "OpenAI Codex"],
   },
   {
@@ -54,7 +53,7 @@ export const PROJECTS = [
     technologies: ["ReactJS", "TailwindCSS", "Framer Motion"],
   },
   {
-    title: "PetroHex AI chat",
+    title: "PatroHex AI chat",
     image: chatboxDashbord,
     description:"I designed and developed a sleek, dark-themed AI chatbot featuring OpenAI integration, responsive design, and a modern user interface. The application demonstrates my skills in React, TypeScript, and API integration while delivering a professional chat experience with real-time responses.",
     technologies: ["React", "TypeScript", "Vite 6", "OpenAI API"],
