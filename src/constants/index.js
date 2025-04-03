@@ -43,7 +43,7 @@ export const PROJECTS = [
     title: "HerDay – Smart Planner App for Modern Motherhood (Coming Soon)",
     image: herDay,
     description:"HerDay is a mobile-first productivity app designed to simplify scheduling, task management, and daily routines for busy mothers. It features a smart in-built planner and a fully customizable layout, enabling moms to personalize their planning experience—whether it's organizing grocery runs, tracking family activities, or managing self-care. Built with Flutter for iOS and Android, and powered by a robust backend using Node.js, Apollo Server, GraphQL, Prisma ORM, and PostgreSQL, HerDay ensures speed, flexibility, and scalability. Currently in development, HerDay emphasizes user-centered design, seamless UX, and strong data privacy. Future updates will include AI-driven smart suggestions, intelligent reminders, and voice-assisted task input.",
-    technologies: ["MongoDB", "ExpressJs", "React", "Node.js", "Framer Motion", "Tailwind CSS", "OpenAI Codex"],
+    technologies: ["Flutter", "Dart", "Node", "GraphQl", "Apollo Server", "PostgreSQL Motion", "Supabase"],
   },
   {
     title: "Portfolio",
