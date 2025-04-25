@@ -44,7 +44,7 @@ export const Hero = () => {
             <motion.button variants={container(1.5)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-3 px-6 rounded-full font-light tracking-tighter bg-slate-500 text-neutral-100 " onClick={() => window.open('/RutikaPatelResumeP.pdf', '_blank')}>Download CV</motion.button>
+              className="my-2 max-w-xl py-3 px-6 rounded-full font-light tracking-tighter bg-slate-500 text-neutral-100 " onClick={() => window.open('/RutikaPatelResume2025.pdf', '_blank')}>Download CV</motion.button>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
