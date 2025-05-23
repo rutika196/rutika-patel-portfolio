@@ -68,7 +68,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "137 Barnosky Court, South Plainfield, NJ 07080",
+  address: "South Plainfield, NJ, 07080",
   phoneNo: "+1 (551) 229-5382 ",
   email: "rutikap0619@gmail.com/rutika.patel202@gmail.com",
 };
